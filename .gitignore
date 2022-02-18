@@ -27,14 +27,17 @@
                             
 # Android Studio
 **/**/*.iml
-**/**/.idea
+**/**/*.idea
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
-**/**/.gradle
+**/**/*.gradle
 **/**/build/
-**/**/.navigation
+**/**/build/*
+**/**/*.navigation
 **/**/captures/
+**/**/captures/*
 **/**/output.json 
     
 #NDK
 **/**/obj/
+**/**/obj/*
 **/**/.externalNativeBuild
